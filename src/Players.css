@@ -1,0 +1,56 @@
+.Players-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Players-Table {
+  border: none;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.Players-Table td {
+  padding: 0.5em;
+}
+
+.Players-Table tbody tr:nth-child(2n+1) {
+  background-color: #f0f0f0;
+}
+
+.Players-Table tr td:last-child {
+  width: 60%;
+}
+
+.Players-Toggle {
+  float: right;
+}
+
+.Players-ToggledOffToggle {
+  background-color: #888;
+}
+
+.Players-ToggledOffToggle:hover {
+  background-color: #999;
+}
+
+.Players-Name {
+  vertical-align: middle;
+}
+
+.toggledOff {
+  text-decoration: line-through;
+}
+
+.guessing, .hidden, .notSubmitted {
+  color: #aaa;
+}
+
+.disconnected {
+  color: #888;
+}
+
+.disconnected-marker {
+  font-size: 0.8em;
+}
